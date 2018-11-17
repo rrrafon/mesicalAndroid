@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">mesical</string>
+    <string name="action_settings">Settings</string>
+    <!-- MUSICAL NOTES -->
+    <string name="Notes_C">C</string>
+    <string name="Notes_CS">C#/Db</string>
+    <string name="Notes_D">D</string>
+    <string name="Notes_DS">D#/Eb</string>
+    <string name="Notes_E">E</string>
+    <string name="Notes_F">F</string>
+    <string name="Notes_FS">F#/Gb</string>
+    <string name="Notes_G">G</string>
+    <string name="Notes_GS">G#/Ab</string>
+    <string name="Notes_A">A</string>
+    <string name="Notes_AS">A#/Bb</string>
+    <string name="Notes_B">B</string>
+
+    <string-array name="musicalNotes">
+        <item>C</item>
+        <item>C#/Db</item>
+        <item>D</item>
+        <item>D#/Eb</item>
+        <item>E</item>
+        <item>F</item>
+        <item>F#/Gb</item>
+        <item>G</item>
+        <item>G#/Ab</item>
+        <item>A</item>
+        <item>A#/Bb</item>
+        <item>B</item>
+
+    </string-array>
+
+
+
 </resources>

@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_width">200dp</dimen>
+    <dimen name="button_square">120dp</dimen>
+    <dimen name="button_setupNotes_notes">24sp</dimen>
+
+</resources>

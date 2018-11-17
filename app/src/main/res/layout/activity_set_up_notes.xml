@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".setUpNotes">
+
+    <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/table_setUpNotes_Notes"
+            android:gravity="top|center_horizontal"
+            android:visibility="visible" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp">
+
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:visibility="visible" android:id="@+id/row0"
+                  android:gravity="center|fill">
+            <Button
+                    android:text="back"
+                    android:layout_width="@dimen/button_height"
+                    android:layout_height="@dimen/button_height" android:id="@+id/button_setUpHome"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                    android:textSize="14sp" android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="4dp" app:layout_constraintBottom_toTopOf="@+id/table_setUpNotes_Notes"
+                    app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="8dp"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_gravity="top|left|right|center"/>
+            <TextView
+                    android:text="Set Up Notes"
+                    android:layout_width="match_parent"
+                    android:id="@+id/textView"
+                    tools:layout_editor_absoluteY="16dp"
+                    tools:layout_editor_absoluteX="157dp" android:layout_height="@dimen/button_setupNotes_notes"
+                    android:textStyle="bold" android:textAlignment="center"
+                    android:textSize="18sp" android:textColor="@android:color/black"
+                    android:layout_gravity="left|center"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:visibility="visible" android:id="@+id/row1" android:gravity="center">
+            <Button
+                    android:text="@string/Notes_C"
+                    android:layout_width="@dimen/button_square"
+                    android:layout_height="@dimen/button_square" android:id="@+id/button_C" android:textStyle="bold"
+                    android:textAlignment="center" android:textSize="@dimen/button_setupNotes_notes"
+                    android:textAllCaps="false"/>
+            <Button
+                    android:text="@string/Notes_CS"
+                    android:layout_width="@dimen/button_square"
+                    android:layout_height="@dimen/button_square" android:id="@+id/button_CS"
+                    android:textSize="@dimen/button_setupNotes_notes"
+                    android:textStyle="bold" android:textAllCaps="false"/>
+            <Button
+                    android:text="@string/Notes_D"
+                    android:layout_width="@dimen/button_square"
+                    android:layout_height="@dimen/button_square" android:id="@+id/button_D"
+                    android:textSize="@dimen/button_setupNotes_notes"
+                    android:textStyle="bold" android:textAllCaps="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:visibility="visible" android:id="@+id/row2" android:gravity="center">
+            <Button
+                    android:text="@string/Notes_DS"
+                    android:layout_width="@dimen/button_square"
+                    android:layout_height="@dimen/button_square" android:id="@+id/button_DS" android:textStyle="bold"
+                    android:textAlignment="center" android:textSize="@dimen/button_setupNotes_notes"
+                    android:textAllCaps="false"/>
+            <Button
+                    android:text="@string/Notes_E"
+                    android:layout_width="@dimen/button_square"
+                    android:layout_height="@dimen/button_square" android:id="@+id/button_E"
+                    android:textSize="@dimen/button_setupNotes_notes"
+                    android:textStyle="bold" android:textAllCaps="false"/>
+            <Button
+                    android:text="@string/Notes_F"
+                    android:layout_width="@dimen/button_square"
+                    android:layout_height="@dimen/button_square" android:id="@+id/button_F"
+                    android:textSize="@dimen/button_setupNotes_notes"
+                    android:textStyle="bold" android:textAllCaps="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:visibility="visible" android:id="@+id/row3" android:gravity="center">
+            <Button
+                    android:text="@string/Notes_FS"
+                    android:layout_width="@dimen/button_square"
+                    android:layout_height="@dimen/button_square" android:id="@+id/button_FS" android:textStyle="bold"
+                    android:textAlignment="center" android:textSize="@dimen/button_setupNotes_notes"
+                    android:textAllCaps="false"/>
+            <Button
+                    android:text="@string/Notes_G"
+                    android:layout_width="@dimen/button_square"
+                    android:layout_height="@dimen/button_square" android:id="@+id/button_G"
+                    android:textSize="@dimen/button_setupNotes_notes"
+                    android:textStyle="bold" android:textAllCaps="false"/>
+            <Button
+                    android:text="@string/Notes_GS"
+                    android:layout_width="@dimen/button_square"
+                    android:layout_height="@dimen/button_square" android:id="@+id/button_GS"
+                    android:textSize="@dimen/button_setupNotes_notes"
+                    android:textStyle="bold" android:textAllCaps="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:visibility="visible" android:id="@+id/row4" android:gravity="center">
+            <Button
+                    android:text="@string/Notes_A"
+                    android:layout_width="@dimen/button_square"
+                    android:layout_height="@dimen/button_square" android:id="@+id/button_A" android:textStyle="bold"
+                    android:textAlignment="center" android:textSize="@dimen/button_setupNotes_notes"
+                    android:textAllCaps="false"/>
+            <Button
+                    android:text="@string/Notes_AS"
+                    android:layout_width="@dimen/button_square"
+                    android:layout_height="@dimen/button_square" android:id="@+id/button_AS"
+                    android:textSize="@dimen/button_setupNotes_notes"
+                    android:textStyle="bold" android:textAllCaps="false"/>
+            <Button
+                    android:text="@string/Notes_B"
+                    android:layout_width="@dimen/button_square"
+                    android:layout_height="@dimen/button_square" android:id="@+id/button_B"
+                    android:textSize="@dimen/button_setupNotes_notes"
+                    android:textStyle="bold" android:textAllCaps="false"/>
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
