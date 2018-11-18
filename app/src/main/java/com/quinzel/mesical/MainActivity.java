@@ -1,19 +1,22 @@
 package com.quinzel.mesical;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
     /* this declares all the button in main Page*/
     private Button bRender = null;
     private Button bRecord = null;
     private Button bMyFiles = null;
     private Button bQuit = null;
     private Button bSettings = null;
+
+    public Uri pathC;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
